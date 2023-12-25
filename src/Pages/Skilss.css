@@ -1,0 +1,52 @@
+/************ Skills Css ************/
+.skill {
+    padding: 0 0 50px 0;
+    position: relative;
+}
+
+.skill-bx {
+    background: #0B1320;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: 20px;
+}
+
+.skill h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.skill p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+
+.skill-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+ margin-top: 50px;
+}
+
+.skill-slider .item img {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.skill-slider .item img:hover {
+    scale: 1.1;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8)
+}
+
+.background-image-left {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+}
+

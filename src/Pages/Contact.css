@@ -1,0 +1,46 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #0B1320;
+    width: auto;
+    border: 2px solid #fff;
+    box-shadow: 0.5;
+}
+
+.form-label {
+    width: auto;
+}
+
+.form-control {
+    width: 90%;
+
+}
+.form-title {
+    margin-bottom: 20px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.form-btn {
+    width: 100px;
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 15px;
+    color: #0B1320;
+    transition:  1.s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.form-btn:hover {
+    background-color: #0B1320;
+    color: aliceblue;
+    border: 1px solid #fff;
+}

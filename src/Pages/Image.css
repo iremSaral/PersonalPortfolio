@@ -1,0 +1,16 @@
+
+.images-box1{
+    background: url(../assets/img/iremsaral.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+    width: 350px;
+    border: .5px solid gray;
+    height: 450px;
+    margin-left: 20px;
+    transition:  1.3s ease-in-out; 
+    flex-direction: row-reverse;
+    display: flex;
+}
+.images-box1:hover {
+   scale: 1.1;
+ box-shadow: 0 0 20px rgba(255, 255, 255, 0.8)
+}

@@ -1,0 +1,73 @@
+.cover-container {
+    margin-top:0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg, #0B1320, #385179);
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    overflow-x: hidden;
+    
+
+}
+
+.wrapper {
+    height: 100%;
+    margin: auto;
+}
+
+.cover-content {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.name {
+    font-size: 30px;
+    color: #A04053;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 80px;
+    color: '#fff';
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cover-btn {
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 300;
+    margin-right: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.cover-btn:hover {
+    background-color: #fff;
+    color: #0B1320;
+}
+
+.sliderText {
+    font-size: 50vh;
+    position: absolute;
+    bottom: -120;
+    white-space: nowrap;
+    color: #38517945;
+    max-width: 450%;
+    overflow: hidden;
+    text-overflow:clip;
+
+}
